@@ -47,7 +47,26 @@ Wazuh server is the central component responsible for collecting and analyzing s
     ![](img/install.png)
   - check the status of the Wazuh agent
     
+    
     ![](img/status-wazuh-agent.png)
+
+  - Ensure that the Wazuh agent is properly configured to communicate with the Wazuh server. Double-check the configuration file. Run the command below and ensure that the IP address is
+    that of your wazuh server:
+    ```
+     nano /var/ossec/etc/ossec.conf
+    ```
+    ![](img/wazuhserver-ip.png)
+
+
+    ![](img/update-ip.png)
+ 
+    restart the agent after taking the steps above
+     ```
+     sudo systemctl restart wazuh-agent
+    ```
+
+    
+    
   - check the wazuh manager
     
     ![](img/deployed-agent.png)
