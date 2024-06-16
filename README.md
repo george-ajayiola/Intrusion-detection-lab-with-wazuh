@@ -42,7 +42,7 @@ Wazuh server is the central component responsible for collecting and analyzing s
   - Next, select the correct architecture and Wazuh server address.
     
     ![](img/Architectue.png)
-  - Next, you will be presented with commands to download, install, and start the Wazuh agent. Copy the commands and run them in the Ubuntu Server you just installed.
+  - Next, you will be presented with commands to download, install, and start the Wazuh agent. Copy the commands and run them in the Ubuntu Server you just created.
     
     ![](img/install.png)
   - check the status of the Wazuh agent
