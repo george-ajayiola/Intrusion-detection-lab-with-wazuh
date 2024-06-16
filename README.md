@@ -60,7 +60,7 @@ Wazuh server is the central component responsible for collecting and analyzing s
 
     ![](img/update-ip.png)
  
-    restart the agent after taking the steps above
+    restart the agent after taking the steps above (this is  if the IP was actually different from that of the wazuh server)
      ```
      sudo systemctl restart wazuh-agent
     ```
