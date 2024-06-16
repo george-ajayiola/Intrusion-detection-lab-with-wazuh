@@ -124,7 +124,7 @@ This configuration suggests that when a rule with ID 5710 is triggered, the fire
 
 
 ## Conclusion
-This project demonstrated the effectiveness of Wazuh as an intrusion detection and prevention system. By setting up Wazuh on Linode and deploying agents on virtual machines, we were able to detect and respond to a simulated brute force attack. The project highlights the importance of proactive security measures in safeguarding against potential threats.
+This project demonstrated the effectiveness of Wazuh as an endpoint detection and respose system. By setting up Wazuh on Linode and deploying agents on virtual machines, we were able to detect and respond to a simulated brute force attack. The project highlights the importance of proactive security measures in safeguarding against potential threats.
 
 
 
