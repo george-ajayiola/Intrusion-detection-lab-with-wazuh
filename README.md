@@ -1,4 +1,4 @@
-# Endpoint Detection and Response (EDR) System Implementation with Wazuh 
+# Intrusion Detection  System Implementation and Active Threat Response with Wazuh 
 
 ## Introduction
 This project aims to implement an endpoint detection and response system using Wazuh, an open-source security monitoring platform. The objective is to set up a Wazuh server on Linode cloud platform and deploy Wazuh agents on virtual machines to monitor and detect potential security threats. A simulated brute force attack using Hydra will be conducted to test the effectiveness of Wazuh in detecting and responding to intrusions.
